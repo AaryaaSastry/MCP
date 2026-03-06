@@ -113,6 +113,7 @@ def handle_query(query):
         Ensure you don't add any markups and always number the items if asked.
         """
         
+        
         final_response = ai_client.models.generate_content(
             model=GEMINI_MODEL, 
             contents=format_prompt
